@@ -16,15 +16,26 @@
 </head>
 
 <body>
-  <ul class="nav">
-    <li class="nav-item"><a class="nav-link" href="#Norte">Norte</a></li>
-    <li class="nav-item"><a class="nav-link" href="#Nordeste">Nordeste</a></li>
-    <li class="nav-item"><a class="nav-link" href="#Centro-oeste">Centro-Oestre</a></li>
-    <li class="nav-item"><a class="nav-link" href="#Sul">Sul</a></li>
-    <li class="nav-item"><a class="nav-link" href="#Suldeste">Suldeste</a></li>
-  </ul>
 
-  <div class="container">
+  <nav class="navbar bg-primary navbar-dark navbar-expand-lg px-4 fixed-top">
+    <a class="navbar-brand" href="#" >
+      <img src="aviao01.png" class="img-peq img-fluid" >
+    </a>
+    <button class="navbar-toggler">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div id="meuMenu" class="navbar-collapse collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#Norte">Norte</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Nordeste">Nordeste</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Centro-oeste">Centro-Oestre</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Sul">Sul</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Suldeste">Suldeste</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container main" >
     
     <section id="Norte">
       <div class="row">
@@ -58,12 +69,6 @@
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo in amet rerum, iusto eius ab
             doloremque, ex, nesciunt vitae fugit dolore velit culpa excepturi quidem dolor alias tenetur voluptate.
         </p>
-          
-          <div id="saibamais" class="btn-group my-5">
-            <a href="#" class="btn btn-outline-primary" title="lugares"><img src="lugares.png" class="img-peq"></a>
-            <a href="#" class="btn btn-outline-primary " title="restaurantes"><img src="restaurante.png" class="img-peq"></a>
-            <a href="#" class="btn btn-outline-primary " title="pontos históricos"><img src="historia.png" class="img-peq"></a>
-          </div>
      
         </div>
       </div>
@@ -76,38 +81,11 @@
           <h3>Sul</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo in amet rerum, iusto eius ab
             doloremque, ex, nesciunt vitae fugit dolore velit culpa excepturi quidem dolor alias tenetur voluptate.</p>
-          <div class="btn-group my-5" role="group" aria-label="Basic radio toggle button group">
-            <input type="radio" class="btn-check" name="sulRadio" id="radioSul1"  title="lugares" checked><label class="btn btn-outline-primary" for="radioSul1"><img src="lugares.png" class="img-peq"></label>
-            <input type="radio" class="btn-check" name="sulRadio" id="radioSul2" title="restaurantes"><label class="btn btn-outline-primary" for="radioSul2"><img src="restaurante.png" class="img-peq"></label>
-            <input type="radio" class="btn-check" name="sulRadio" id="radioSul3" title="pontos históricos"><label class="btn btn-outline-primary" for="radioSul3"><img src="historia.png" class="img-peq"></label>
-          </div>
 
         </div>
       </div>
-      <div id="CarrosselSul01" class="carousel my-3 collapse" >
-          <div id="imagens" class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="lugarSul01.jpg">
-              <h5  class="carousel-caption" >lugar 01</h5>
-            </div>
-            <div class="carousel-item">
-              <img src="lugarSul02.jpg">
-              <h5 class="carousel-caption">lugar 02</h5>
-            </div>
-            <div class="carousel-item">
-              <img src="lugarSul03.jpg">
-              <h5>lugar 03</h5>
-            </div>
-          </div>
-          <div id="controles">
-              <button class="carousel-control-prev" data-bs-target="#CarrosselSul01" data-bs-slide="prev" >
-                <span class="carousel-control-prev-icon" ></span>
-              </button>
-              <button class="carousel-control-next" data-bs-target="#CarrosselSul01" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-              </button>
-          </div>
-      </div>
+      
+     
     </section>
     <section id="Suldeste">
       
@@ -126,10 +104,13 @@
 
   <footer class="bg-primary text-white mt-5 p-5">
     <div class="container">
-      <img src="aviao01.png" class="img-peq">
-      <h6>por Prof Mariana</h6>
-      <h5>Equipe</h5>
+      <div class="mb-3">
+        <img src="aviao01.png" class="img-mini">
+      </div>
       <ul style="list-style: none;">
+        <li>
+          <h5>Equipe</h5>
+        </li>
         <li>Aluno1</li>
         <li>Aluno2</li>
         <li>Aluno3</li>

@@ -5,7 +5,10 @@ body{
     width: 25%;
 }
 .img-peq{
-    width: 18%;
+    width: 60px;
+}
+.img-mini{
+    width: 8%;
 }
 section{
     margin-top: 50px;
@@ -13,3 +16,7 @@ section{
 footer{
     margin-bottom: -50px;
 }
+.main{
+    margin-top:150px
+}
+
