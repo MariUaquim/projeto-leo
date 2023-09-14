@@ -1,9 +1,35 @@
 body{
     margin: 0px;
 }
+
 .img-med{
-    width: 25%;
+    width: 50%;
 }
+@media(min-width:370px){
+
+    div{
+     
+        font-size: 12px;
+    }
+}
+@media (min-width:768px){
+
+    div{
+   
+        font-size: 15px;
+    }
+}
+@media (min-width:992px){
+
+    div{
+     
+        font-size: 18px;
+    }
+}
+
+
+
+
 .img-peq{
     width: 60px;
 }
@@ -14,6 +40,7 @@ section{
     margin-top: 50px;
 }
 footer{
+    color: rgb(221, 226, 231);
     margin-bottom: -50px;
 }
 .main{

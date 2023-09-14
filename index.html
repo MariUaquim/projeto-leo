@@ -3,25 +3,27 @@
 
 <head>
   <title>Turismo Brasil</title>
-  
+
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="aviao01.png">
   <!-- Bootstrap CSS v5.2.1 -->
-  <link rel="stylesheet" href="estilo.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
+<!-- Bootstrap icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+  <!-- Meu css -->
+  <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
 
-  <nav class="navbar bg-primary navbar-dark navbar-expand-lg px-4 fixed-top">
-    <a class="navbar-brand" href="#" >
-      <img src="aviao01.png" class="img-peq img-fluid" >
+  <nav class="navbar bg-primary navbar-dark navbar-expand-lg px-2 py-4 fixed-top">
+    <a class="navbar-brand" href="#">
+      <img src="aviao01.png" class="img-peq img-fluid">
     </a>
-    <button class="navbar-toggler">
+    <button class="navbar-toggler" data-bs-target="#meuMenu" data-bs-toggle="collapse">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div id="meuMenu" class="navbar-collapse collapse">
@@ -35,12 +37,12 @@
     </div>
   </nav>
 
-  <div class="container main" >
-    
+  <div class="container main">
+
     <section id="Norte">
       <div class="row">
-        <img src="norte01.jpg" class="img-med col-5 img-fluid">
-        <div class="col-5">
+        <img src="norte01.jpg" class="img-med col-6 img-fluid">
+        <div class="col-6">
           <h3>Norte</h3>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo in amet rerum, iusto eius ab
           doloremque, ex, nesciunt vitae fugit dolore velit culpa excepturi quidem dolor alias tenetur voluptate.
@@ -48,10 +50,10 @@
       </div>
     </section>
     <section id="Nordeste">
-      
+
       <div class="row">
-        <img src="nordeste01.jpg" class="img-med col-5 img-fluid">
-        <div class="col-5">
+        <img src="nordeste01.jpg" class="img-med col-6 img-fluid">
+        <div class="col-6">
           <h3>Nordeste</h3>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo in amet rerum, iusto eius ab
           doloremque, ex, nesciunt vitae fugit dolore velit culpa excepturi quidem dolor alias tenetur voluptate.
@@ -61,60 +63,64 @@
 
     </section>
     <section id="Centro-oeste">
-      
+
       <div class="row">
-        <img src="centro-oeste.jpg" class="img-med col-5 img-fluid">
-        <div class="col-5">
+        <img src="centro-oeste.jpg" class="img-med col-6 img-fluid">
+        <div class="col-6">
           <h3>Centro-Oeste</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo in amet rerum, iusto eius ab
             doloremque, ex, nesciunt vitae fugit dolore velit culpa excepturi quidem dolor alias tenetur voluptate.
-        </p>
-     
+          </p>
+
         </div>
       </div>
     </section>
     <section id="Sul">
-     
+
       <div class="row">
-        <img src="sul01.jpg" class="img-med col-5 img-fluid">
-        <div class="col-5">
+        <img src="sul01.jpg" class="img-med col-6 img-fluid">
+        <div class="col-6">
           <h3>Sul</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo in amet rerum, iusto eius ab
             doloremque, ex, nesciunt vitae fugit dolore velit culpa excepturi quidem dolor alias tenetur voluptate.</p>
 
         </div>
       </div>
-      
-     
+
+
     </section>
     <section id="Suldeste">
-      
+
       <div class="row">
-        <img src="sudeste01.jpg" class="img-med col-5 img-fluid">
-        <div class="col-5">
+        <img src="sudeste01.jpg" class="img-med col-6 img-fluid">
+        <div class="col-6">
           <h3>suldeste</h3>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci quo in amet rerum, iusto eius ab
             doloremque, ex, nesciunt vitae fugit dolore velit culpa excepturi quidem dolor alias tenetur voluptate.</p>
-          
+
         </div>
       </div>
     </section>
 
   </div>
 
-  <footer class="bg-primary text-white mt-5 p-5">
-    <div class="container">
-      <div class="mb-3">
-        <img src="aviao01.png" class="img-mini">
+  <footer class="bg-primary mt-5 p-5">
+    <div class="row container-fluid">
+      <div class="col-12 col-md-4">
+        <h5>Equipe</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2">Aluno1</li>
+          <li class="mb-2">Aluno2</li>
+          <li class="mb-2">Aluno3</li>
+        </ul>
       </div>
-      <ul style="list-style: none;">
-        <li>
-          <h5>Equipe</h5>
-        </li>
-        <li>Aluno1</li>
-        <li>Aluno2</li>
-        <li>Aluno3</li>
-      </ul>
+      <div class="col-12 col-md-4">
+        <h5>Contatos</h5>
+        <p><i class="bi bi-whatsapp mx-1"></i>(11)9999-9999</p>
+        <p><i class="bi bi-envelope-at mx-1"></i>1234@gmail.com</p>
+       
+      </div>
+
     </div>
   </footer>
 
