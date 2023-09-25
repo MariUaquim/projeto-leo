@@ -1,2 +1,2 @@
 # projeto-leo
- Um site que estou ajudando o meu aluno Leonardo a criar para a feira das ciências dele
+ Este site foi concebido em aula, no intuito de auxiliar um aluno a desenvolver o seu próprio para posterior apesentação em competição escolar
